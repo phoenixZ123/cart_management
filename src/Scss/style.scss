@@ -1,0 +1,52 @@
+body {
+    background-color: #2d2d32;
+    color: #52E1E2;
+
+}
+
+
+.position {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.position div {
+    margin: 40px;
+
+}
+
+.position h2 {
+    border-bottom: 2px solid #52E1E2;
+    width: fit-content;
+    padding-bottom: 5px;
+    padding-right: 25px;
+}
+
+.position ul {
+    padding: 0;
+    list-style: none;
+}
+
+.position ul li:not(#total) {
+    padding: 15px 0;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+#total,
+button {
+    border-left: 2px solid #52E1E2;
+    padding-left: 10px;
+}
+
+#total {
+    margin-top: 25px;
+}
